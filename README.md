@@ -1,14 +1,15 @@
-## SB Admin 2 (React Version)
+# SB Admin 2 (React Version)
 
-In the project directory, you can run:
+A React version of admin template [SB Admin 2](https://startbootstrap.com/themes/sb-admin-2/) created by [Start Bootstrap](https://startbootstrap.com).
 
-### `npm start`
+## Getting Start
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+* clone the repo git clone https://github.com/luizhfraraujo/sb-admin-2-react.git
+* enter in folder cd sb-admin-2-react
+* yarn install
+* yarn start
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+If you want another name of your project, clone the repo with the name. Exemplate: git clone https://github.com/luizhfraraujo/sb-admin-2-react.git myawesomeproject
 
 ### `npm test`
 
