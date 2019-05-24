@@ -53,3 +53,5 @@ Peoples who working on react version
 [luizhfraraujo-github]: https://github.com/luizhfraraujo
 
 [charts-custom]: https://blog.bitsrc.io/customizing-chart-js-in-react-2199fa81530a
+[react-redux]:https://medium.com/reactbrasil/iniciando-com-redux-c14ca7b7dcf
+[entendendo-react-redux]:https://medium.com/@hliojnior_34681/entenda-react-e-redux-de-uma-vez-por-todas-c761bc3194ca

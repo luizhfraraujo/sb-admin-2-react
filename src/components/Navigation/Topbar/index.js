@@ -1,12 +1,19 @@
 import React, {Component} from 'react';
 
+
+import { connect } from 'react-redux';
+import { bindActionCreators } from 'redux';
+import { clickMenuOpen } from '../../../redux/actions';
+
 class Topbar extends Component {
     render() {
+      const { clickMenuOpen } = this.props;
+
         return (
             <nav className="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow">
 
             {/* <!-- Sidebar Toggle (Topbar) --> */}
-            <button id="sidebarToggleTop" className="btn btn-link d-md-none rounded-circle mr-3">
+            <button onClick={() => { clickMenuOpen() }}  id="sidebarToggleTop" className="btn btn-link d-md-none rounded-circle mr-3">
               <i className="fa fa-bars"></i>
             </button>
 
@@ -188,4 +195,12 @@ class Topbar extends Component {
     }
 }
 
-export default Topbar;
+
+const mapDispatchToProps = dispatch =>
+  bindActionCreators({ clickMenuOpen }, dispatch);
+
+const mapStateToProps = store => ({
+  toggled: store.menuState.menuOpen
+});
+
+export default connect(mapStateToProps, mapDispatchToProps)(Topbar);
