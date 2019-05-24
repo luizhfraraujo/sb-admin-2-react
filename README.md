@@ -46,4 +46,4 @@ Peoples who working on react version
 
 <!-- Markdown link & img -->
 [blackrock-github]: https://github.com/BlackrockDigital
-[luizhfaraujo-github]: https://github.com/luizhfraraujo
+[luizhfraraujo-github]: https://github.com/luizhfraraujo
