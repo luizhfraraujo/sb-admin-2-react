@@ -13,14 +13,14 @@ If you want another name of your project, clone the repo with the name. Ex: `git
 
 ## Components
 
-*CardBasic
-*CardInfo (Dashboard cards)
-*CardDefault
-*CardCollapse
-*CardDropdown
-*Topbar
-*Sidebar
-*PageHeading
+* CardBasic
+* CardInfo (Dashboard cards)
+* CardDefault
+* CardCollapse
+* CardDropdown
+* Topbar
+* Sidebar
+* PageHeading
 
 ## Themming
 
