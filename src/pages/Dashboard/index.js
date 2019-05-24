@@ -66,10 +66,10 @@ class Dashboard extends Component {
                     value="18" />
                 </div>
                 <div className="row">
-                  <div class="col-xl-8 col-lg-5">
+                  <div className="col-xl-8 col-lg-6">
                     <ChartLine />
                   </div>
-                  <div class="col-xl-4 col-lg-5">
+                  <div className="col-xl-4 col-lg-6">
                     <ChartDonut />
                   </div>
 
