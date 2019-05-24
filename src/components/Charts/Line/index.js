@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Chart from "chart.js";
 
-class ChartArea extends Component {
+class ChartLine extends Component {
     chartRef = React.createRef();
 
     componentDidMount() {
@@ -45,4 +45,4 @@ class ChartArea extends Component {
     }
 }
 
-export default ChartArea;
+export default ChartLine;

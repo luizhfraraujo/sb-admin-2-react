@@ -22,6 +22,10 @@ If you want another name of your project, clone the repo with the name. Ex: `git
     * CardDefault
     * CardCollapse
     * CardDropdown
+* Charts
+    * ChartDonut
+    * ChartLine
+    * ChartBar
 * Navigation
     * Topbar
     * Sidebar

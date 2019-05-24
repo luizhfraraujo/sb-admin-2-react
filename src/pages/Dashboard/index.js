@@ -6,7 +6,7 @@ import Topbar from '../../components/Navigation/Topbar';
 
 import CardInfo from '../../components/Cards/Info';
 import ChartDonut from '../../components/Charts/Donut';
-import ChartArea from '../../components/Charts/Area';
+import ChartLine from '../../components/Charts/Line';
 
 class Dashboard extends Component {
   componentWillMount() {
@@ -67,7 +67,7 @@ class Dashboard extends Component {
                 </div>
                 <div className="row">
                   <div class="col-xl-8 col-lg-5">
-                    <ChartArea />
+                    <ChartLine />
                   </div>
                   <div class="col-xl-4 col-lg-5">
                     <ChartDonut />
