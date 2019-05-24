@@ -6,6 +6,8 @@ import App from './App';
 import $ from 'jquery';
 import Popper from 'popper.js';
 
+// <!-- Page level custom scripts -->
+
 import 'bootstrap/dist/js/bootstrap.bundle.min';
 
 import './styles/scss/sb-admin-2.scss';

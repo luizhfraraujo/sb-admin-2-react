@@ -47,3 +47,5 @@ Peoples who working on react version
 <!-- Markdown link & img -->
 [blackrock-github]: https://github.com/BlackrockDigital
 [luizhfraraujo-github]: https://github.com/luizhfraraujo
+
+[charts-custom]: https://blog.bitsrc.io/customizing-chart-js-in-react-2199fa81530a

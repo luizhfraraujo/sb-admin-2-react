@@ -5,6 +5,8 @@ import Sidebar from '../../components/Navigation/Sidebar';
 import Topbar from '../../components/Navigation/Topbar';
 
 import CardInfo from '../../components/Cards/Info';
+import ChartDonut from '../../components/Charts/Donut';
+import ChartArea from '../../components/Charts/Area';
 
 class Dashboard extends Component {
   componentWillMount() {
@@ -62,6 +64,15 @@ class Dashboard extends Component {
                     icon="comments"
                     color="warning"
                     value="18" />
+                </div>
+                <div className="row">
+                  <div class="col-xl-8 col-lg-5">
+                    <ChartArea />
+                  </div>
+                  <div class="col-xl-4 col-lg-5">
+                    <ChartDonut />
+                  </div>
+
                 </div>
 
               </div>
