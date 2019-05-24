@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
+import {Link} from 'react-router-dom';
 
-class SideBar extends Component {
+class Sidebar extends Component {
   componentDidMount() {
     document.getElementById('body').className = 'page-top';
   }
@@ -36,9 +37,9 @@ class SideBar extends Component {
 
         {/* <!-- Nav Item - Dashboard --> */}
         <li className="nav-item">
-          <a className="nav-link" href="index.html">
+          <Link className="nav-link" to="/dashboard">
             <i className="fas fa-fw fa-tachometer-alt"></i>
-            <span>Dashboard</span></a>
+            <span>Dashboard</span></Link>
         </li>
 
         {/* <!-- Divider --> */}
@@ -59,7 +60,7 @@ class SideBar extends Component {
             <div className="bg-white py-2 collapse-inner rounded">
               <h6 className="collapse-header">Custom Components:</h6>
               <a className="collapse-item" href="buttons.html">Buttons</a>
-              <a className="collapse-item" href="cards.html">Cards</a>
+              <Link className="collapse-item" to="/cards">Cards</Link>
             </div>
           </div>
         </li>
@@ -115,4 +116,4 @@ class SideBar extends Component {
   }
 }
 
-export default SideBar;
+export default Sidebar;

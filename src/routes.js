@@ -7,6 +7,7 @@ import SignUp from "./pages/SignUp";
 import SignIn from "./pages/SignIn";
 import Dashboard from "./pages/Dashboard";
 import NotFound from "./pages/NotFound";
+import Cards from "./pages/Cards";
 
 
 const Routes = () => (
@@ -15,6 +16,7 @@ const Routes = () => (
             <Route exact path="/" component={SignIn} />
             <Route exact path="/dashboard" component={Dashboard} />
             <Route path="/signup" component={SignUp} />
+            <Route path="/cards" component={Cards} />
             <Route path="*" component={NotFound} />
         </Switch>
     </BrowserRouter>
