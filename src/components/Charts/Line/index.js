@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import Chart from "chart.js";
 
+import CardBasic from '../../Cards/Basic';
+
 Chart.defaults.global.defaultFontFamily = 'Nunito';
 Chart.defaults.global.defaultFontColor = '#858796';
 
@@ -101,18 +103,13 @@ class ChartLine extends Component {
 
     render() {
         return (
-            <div className="card shadow mb-4" >
-                <div className="card-header py-3">
-                    <h6 className="m-0 font-weight-bold text-primary">Area Chart</h6>
+            <CardBasic title="Area Chart">
+                <div className="chart-area">
+                    <canvas id="myAreaChart" ref={this.chartRef}></canvas>
                 </div>
-                <div className="card-body">
-                    <div className="chart-area">
-                        <canvas id="myAreaChart" ref={this.chartRef}></canvas>
-                    </div>
-                    <hr />
-                    Styling for the area chart can be found in the <code>/js/demo/chart-area-demo.js</code> file.
-                </div>
-            </div>
+                <hr />
+                Styling for the area chart can be found in the <code>/Components/Charts/Line/Index.js</code> file.
+            </CardBasic>
         )
     }
 }

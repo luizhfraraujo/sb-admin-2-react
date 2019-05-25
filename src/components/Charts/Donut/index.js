@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import Chart from "chart.js";
 
+import CardBasic from '../../Cards/Basic';
+
 class ChartDonut extends Component {
     chartRef = React.createRef();
 
@@ -42,20 +44,13 @@ class ChartDonut extends Component {
 
     render() {
         return (
-            <div className="card shadow mb-4">
-                {/* <!-- Card Header - Dropdown --> */}
-                <div className="card-header py-3">
-                    <h6 className="m-0 font-weight-bold text-primary">Donut Chart</h6>
-                </div>
-                {/* <!-- Card Body --> */}
-                <div className="card-body">
-                    <div className="chart-pie pt-4">
+            <CardBasic title="Donut Chart">
+                 <div className="chart-pie pt-4">
                         <canvas id="myPieChart" ref={this.chartRef}></canvas>
                     </div>
                     <hr />
-                    Styling for the donut chart can be found in the <code>/js/demo/chart-pie-demo.js</code> file.
-                </div>
-            </div>
+                    Styling for the donut chart can be found in the <code>/Components/Charts/Donut/index.js</code> file.
+            </CardBasic>
         )
     }
 }

@@ -8,6 +8,7 @@ import SignIn from "./pages/SignIn";
 import Dashboard from "./pages/Dashboard";
 import NotFound from "./pages/NotFound";
 import Cards from "./pages/Cards";
+import Charts from "./pages/Charts";
 
 
 const Routes = () => (
@@ -17,6 +18,7 @@ const Routes = () => (
             <Route exact path="/dashboard" component={Dashboard} />
             <Route path="/signup" component={SignUp} />
             <Route path="/cards" component={Cards} />
+            <Route path="/charts" component={Charts} />
             <Route path="*" component={NotFound} />
         </Switch>
     </BrowserRouter>

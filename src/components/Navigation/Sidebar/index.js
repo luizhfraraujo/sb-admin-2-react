@@ -97,9 +97,9 @@ class Sidebar extends Component {
 
         {/* <!-- Nav Item - Charts --> */}
         <li className="nav-item">
-          <a className="nav-link" href="charts.html">
+          <Link className="nav-link" to="/charts">
             <i className="fas fa-fw fa-chart-area"></i>
-            <span>Charts</span></a>
+            <span>Charts</span></Link>
         </li>
 
         {/* <!-- Nav Item - Tables --> */}
