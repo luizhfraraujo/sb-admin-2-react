@@ -47,7 +47,7 @@ Peoples who working on react version
 * **Luiz Araújo** - [Github][luizhfraraujo-github]
 
 ## License
-[MIT][MIT](https://github.com/BlackrockDigital/startbootstrap-sb-admin-2/blob/gh-pages/LICENSE)
+[MIT](https://github.com/BlackrockDigital/startbootstrap-sb-admin-2/blob/gh-pages/LICENSE)
 
 <!-- Markdown link & img -->
 [blackrock-github]: https://github.com/BlackrockDigital
