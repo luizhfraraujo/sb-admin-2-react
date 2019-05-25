@@ -4,14 +4,12 @@ class CardDropdown extends Component {
   constructor(props) {
     super(props)
     this.state = {
-      title: '',
-      body: ''
+      title: ''
     }
   }
 
   componentDidMount() {
     this.setState({ title: this.props.title ? this.props.title : 'Card'});
-    this.setState({ body: this.props.body ? this.props.body : 'Dropdown menus can be placed in the card header in order to extend the functionality of a basic card. In this dropdown card example, the Font Awesome vertical ellipsis icon in the card header can be clicked on in order to toggle a dropdown menu.'})
 }
 
 render() {
@@ -35,7 +33,7 @@ render() {
       </div>
       {/* <!-- Card Body --> */}
       <div className="card-body">
-        {this.state.body}
+        {this.props.children}
       </div>
     </div>
   )

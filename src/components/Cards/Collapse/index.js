@@ -4,8 +4,7 @@ class CardCollapse extends Component {
     constructor(props) {
         super(props)
         this.state = {
-            title: '',
-            body:''
+            title: ''
         }
     }
 
@@ -23,7 +22,7 @@ class CardCollapse extends Component {
                 {/* <!-- Card Content - Collapse --> */}
                 <div className="collapse show" id="collapseCardExample">
                     <div className="card-body">
-                        {this.state.body}
+                        {this.props.children}
                   </div>
                 </div>
             </div>

@@ -62,18 +62,28 @@ class Cards extends Component {
                                 </div>
                                 <div className="row">
                                     <div class="col-lg-6">
-                                        <CardDefault title="Card Default Example" />
+                                        <CardDefault title="Card Default Example">
+                                            This card uses Bootstrap's default styling with no utility classes added. Global styles are the only things modifying the look and feel of this default card example.
+    
+                                        </CardDefault>
                                     </div>
                                     <div class="col-lg-6">
-                                        <CardDropdown  title="Card Dropdown Example"/>
+                                        <CardDropdown title="Card Dropdown Example">
+                                            Dropdown menus can be placed in the card header in order to extend the functionality of a basic card. In this dropdown card example, the Font Awesome vertical ellipsis icon in the card header can be clicked on in order to toggle a dropdown menu.
+    
+                                        </CardDropdown>
                                     </div>
                                 </div>
                                 <div className="row">
                                     <div class="col-lg-6">
-                                        <CardBasic  title="Card Basic Example"/>
+                                        <CardBasic title="Card Basic Example">
+                                            The styling for this basic card example is created by using default Bootstrap utility classes. By using utility classes, the style of the card component can be easily modified with no need for any custom CSS!
+                                        </CardBasic>
                                     </div>
                                     <div class="col-lg-6">
-                                        <CardCollapse  title="Card Collapse Example"/>
+                                        <CardCollapse title="Card Collapse Example">
+                                            This is a collapsable card example using Bootstrap's built in collapse functionality. <strong>Click on the card header</strong> to see the card body collapse and expand!
+                                        </CardCollapse>
                                     </div>
 
                                 </div>

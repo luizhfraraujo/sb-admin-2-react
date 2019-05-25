@@ -4,14 +4,12 @@ class CardDefault extends Component {
   constructor(props) {
     super(props)
     this.state = {
-      title: '',
-      body: ''
+      title: ''
     }
   }
 
   componentDidMount() {
     this.setState({ title: this.props.title ? this.props.title : 'Default Card Example' });
-    this.setState({ body: this.props.body ? this.props.body : "This card uses Bootstrap's default styling with no utility classes added. Global styles are the only things modifying the look and feel of this default card example." })
   }
 
   render() {
@@ -21,7 +19,7 @@ class CardDefault extends Component {
           {this.state.title}
         </div>
         <div className="card-body">
-          {this.state.body}
+          {this.props.children}
         </div>
       </div>
     )
